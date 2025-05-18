@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> ECUADOR COFFEE </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+     <script type="text/javascript">
+         $(document).ready(function() {
+           $("#logo").addClass("animated");
+           $("#logo2").addClass("animated");
+           $("#gradient").addClass("gradient-anim");
+           $(".ECU").addClass("anim-ECU");
+         });
+     </script>
+     <style>
+     #logo {
+       position: absolute;
+       top: 160px;
+       left:180px;
+       -webkit-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+       -moz-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+       -o-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+       transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+       -webkit-transition-delay: 1s;
+       -moz-transition-delay: 1s;
+       -o-transition-delay: 1s;
+       transition-delay: 1s;
+     }
+     #text {
+       position: absolute;
+       left: 1200px;
+       top: 300px;	
+     }
+     .ECU {
+         opacity: 0;
+         -webkit-transition-property: left,opacity,-webkit-transform;
+         -webkit-transition-duration: 3s,4s,3s;
+         -webkit-transition-timing-function: ease,ease,ease-out;
+         -webkit-transition-delay: 0s,.5s,0s;    
+         -moz-transition-property: left,opacity,-moz-transform;
+         -moz-transition-duration: 3s,4s,3s;
+         -moz-transition-timing-function: ease,ease,ease-out;
+         -moz-transition-delay: 0s,.5s,0s;
+         -o-transition-property: left,opacity,-o-transform;
+         -o-transition-duration: 3s,4s,3s;
+         -o-transition-timing-function: ease,ease,ease-out;
+         -o-transition-delay: 0s,.5s,0s;
+         transition-property: left,opacity,transform;
+         transition-duration: 3s,4s,3s;
+         transition-timing-function: ease,ease,ease-out;
+         transition-delay: 0s,.5s,0s;
+     }
+     .animated {
+         -webkit-transform: rotateY(-720deg);    
+         -moz-transform: rotateY(-720deg);    
+         -o-transform: rotateY(-720deg);    
+       transform: rotateY(-720deg);	
+     }
+     #text.anim-ECU {
+       left:1000px;	
+     }
+     .anim-ECU {
+       /*
+         -webkit-transform: rotate(-1080deg);
+         -moz-transform: rotate(-1080deg);
+         -o-transform: rotate(-1080deg);
+         transform: rotate(-1080deg);
+         */
+         opacity: 1;
+     }
+     #text p{
+      font-size: 35pt;
+       color:rgb(255, 255, 255);
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style:italic;
+       font-weight: bold;
+     }
+     body{
+			background-image: url("image/coffee.jpeg");
+      background-repeat: no-repeat;
+      
+      
+    }
+     </style>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details"> 
+        <div class="logo_name">ECUADOR COFFEE</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <!--
+    <div id="logo">
+      <img src="image/ec.png" width="145" height="130" alt="logo"/> 
+    </div>
+  -->
+    <ul class="nav-list">
+      <li>
+        <a href="home.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+     <li>
+      <a href="menu2.html">
+        <i class='bx bx-food-menu' ></i>
+        <span class="links_name">Menu</span>
+      </a>
+      <span class="tooltip">Menu</span>
+    </li>
+    <li>
+      <a href="loaction.html">
+        <i class='bx bx-world' ></i>
+        <span class="links_name">Loaction</span>
+      </a>
+      <span class="tooltip">Loaction</span>
+    </li>
+     <li>
+       <a href="contact.html">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="about.html">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+     <li class="profile">
+             <div class="face">
+            <a href="https://www.facebook.com/EcuadorCoffeeME"
+             target="_blank">Follow US ON Facebook. Thanks!</a>
+           </div>
+         <i class='bx bx-user' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <div id="logo"><img src="image/ECU.png" width="700" height="400" alt="logo"></div>
+  <div id="text" class="ECU"><p>  WELCOME TO <br> ECUADOR COFFEE</p></div>
+  </div>
+  <footer>
+   ©Copyright of <a href="https://www.facebook.com/profile.php?id=100006893585619" target="_blank" > 
+    El Fakhrany Group </a> . All rights reserved.  
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> ECUADOR COFFEE </title>
+<link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+     <script type="text/javascript">
+         $(document).ready(function() {
+           $("#logo").addClass("animated");
+           $("#gradient").addClass("gradient-anim");
+           $(".ECU").addClass("anim-ECU");
+         });
+     </script>
+
+
+		<style>
+		body{
+			background-image: url("image/WhatsApp\ Image\ 2021-11-11\ at\ 01.00.06.jpeg");
+    }
+     .ECU {
+         opacity: 0;
+         -webkit-transition-property: left,opacity,-webkit-transform;
+         -webkit-transition-duration: 3s,4s,3s;
+         -webkit-transition-timing-function: ease,ease,ease-out;
+         -webkit-transition-delay: 0s,.5s,0s;    
+         -moz-transition-property: left,opacity,-moz-transform;
+         -moz-transition-duration: 3s,4s,3s;
+         -moz-transition-timing-function: ease,ease,ease-out;
+         -moz-transition-delay: 0s,.5s,0s;
+         -o-transition-property: left,opacity,-o-transform;
+         -o-transition-duration: 3s,4s,3s;
+         -o-transition-timing-function: ease,ease,ease-out;
+         -o-transition-delay: 0s,.5s,0s;
+         transition-property: left,opacity,transform;
+         transition-duration: 3s,4s,3s;
+         transition-timing-function: ease,ease,ease-out;
+         transition-delay: 0s,.5s,0s;
+     }
+     .animated {
+         -webkit-transform: rotateY(-720deg);    
+         -moz-transform: rotateY(-720deg);    
+         -o-transform: rotateY(-720deg);    
+       transform: rotateY(-720deg);	
+     }
+     .anim-ECU {
+       /*
+         -webkit-transform: rotate(-1080deg);
+         -moz-transform: rotate(-1080deg);
+         -o-transform: rotate(-1080deg);
+         transform: rotate(-1080deg);
+         */
+         opacity: 1;
+     }
+	</style>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <div class="logo_name">ECUADOR COFFEE</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="home.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+     <li>
+       <a href="menu2.html">
+         <i class='bx bx-food-menu' ></i>
+         <span class="links_name">Menu</span>
+       </a>
+       <span class="tooltip">Menu</span>
+     </li>
+     <li>
+       <a href="loaction.html">
+         <i class='bx bx-world' ></i>
+         <span class="links_name">Loaction</span>
+       </a>
+       <span class="tooltip">Loaction</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+       <a href="about.html">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+     <li class="profile">
+             <div class="face">
+            <a href="https://www.facebook.com/EcuadorCoffeeME"
+             target="_blank">Follow US ON Facebook. Thanks!</a>
+           </div>
+         <i class='bx bx-user' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+<header>
+  <div id="logo">
+    <img src="image/ec.png" width="145" height="130" alt="logo"/> 
+  </div>
+</header>
+<div id="main">
+	
+  <section id="rightSec">
+	  <h2>
+	  Contact
+    </h2>
+	   <form method="post" name="form1" id="form1">
+ <label>Name :</label>
+ <input type="text" name="name" form="form1" autofocus="autofocus" required="required" id="name">
+  <label>E-mail :</label>
+ <input type="email" name="email" id="email" required="required">
+ <label>Comments :</label>
+ <textarea name="comments" required="required" id="comments" form="form1"></textarea>
+ <input type="submit" value="Submit" name="submit" id="submit" form="form1">
+ </form>
+  </section>
+</div>
+<footer>
+   ©Copyright of <a href="https://www.facebook.com/profile.php?id=100006893585619" target="_blank" > 
+    El Fakhrany Group </a> . All rights reserved.  
+  </footer>
+	<script src="js/jquery-3.6.0.js" type="text/jscript"></script>
+	<script src="js/bootstrap.js" type="text/jscript"></script>
+</body>
+</html>

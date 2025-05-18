@@ -1,0 +1,229 @@
+/*footer styles	*/
+/*
+body{
+	background-image: url(image/WhatsApp\ Image\ 2021-11-11\ at\ 01.00.06.jpeg);
+	background-size:contain;
+	width: 40%;
+	background-repeat: repeat;
+	padding-bottom: 1000px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+*/
+/*
+#logo {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+	background-color: rgb(255, 255, 255);
+}
+*/
+.food-menu{
+	color: rgb(255, 255, 255);
+}
+#main .footerNav .col{
+	color: rgb(255, 255, 255);
+	margin-left: 0px;
+	height: 100%;
+	/*width: 100%;*/
+}
+#main h3 {
+	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 18pt;
+	margin-left: 200px;
+	padding-top: 20px;
+}
+
+#main p {
+	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 18pt;
+	/*margin-left: 75px;*/
+}
+
+#main .col {
+	float: none;
+	width: 500px;
+	border-right: 0px solid rgba(191, 191, 191, .8);
+	border-bottom: 0px solid rgba(191, 191, 191, .8);
+	margin-bottom: 1em;
+/*	text-align: center;*/
+    padding-top: 20px;
+}
+/*
+#main .col:last-child {
+	border: none;
+}
+*/
+#main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: .7em;
+}
+#main li {
+	margin-bottom: 1em;
+	margin-left: 120px;
+	padding-top: 20px;
+}
+#main .col1 {
+	float: left;
+	width: 100%;
+}
+#main .col2 {
+	float: right;
+	width: 100%;
+}
+#main .col3 {
+	float: right;
+	width: 100%;
+}
+#main .col4 {
+	float: right;
+	width: 100%;
+}
+#main .col5 {
+	float: right;
+	width: 100%;
+}
+#main .col6 {
+	float: right;
+	width: 100%;
+}
+#main .col7 {
+	float: right;
+	width: 100%;
+}
+#main .col8 {
+	float: right;
+	width: 100%;
+}
+#main .col9 {
+	float: right;
+	width: 100%;
+}
+#main .col10 {
+	float: right;
+	width: 100%;
+}
+#main .col11 {
+	float: right;
+	width: 100%;
+}
+#main .col12 {
+	float: right;
+	width: 100%;
+}
+#main .col13 {
+	float: right;
+	width: 100%;
+}
+#main .col14 {
+	float: right;
+	width: 100%;
+}
+#main .col15 {
+	float: right;
+	width: 100%;
+}
+#main .col16 {
+	float: right;
+	width: 100%;
+}
+#main .col17 {
+	float: right;
+	width: 100%;
+}
+#main .col18 {
+	float: right;
+	width: 100%;
+}
+#main .col19 {
+	float: right;
+	width: 100%;
+}
+#main .col20 {
+	float: right;
+	width: 100%;
+}
+#main .col21 {
+	float: right;
+	width: 100%;
+}
+#main .col22 {
+	float: right;
+	width: 100%;
+}
+#leftSec {
+	width: 50%;
+	/*
+    margin-left: 3%;
+    margin-right: 1.5%;
+    padding-left: 2%;
+	padding-right: 2%;
+	*/
+    float: left;
+}
+#rightSec {
+    width: 50%; /*
+    margin-left: 1.5%;
+    margin-right: 3%;
+    padding-left: 2%;
+	padding-right: 2%;
+	*/
+    float: right;
+    /*  padding-top: 25px; 
+    padding-bottom: 30px;
+	border-top-right-radius: 30px;
+	*/
+	background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
